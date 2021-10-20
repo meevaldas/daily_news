@@ -8,7 +8,7 @@ import Moment from 'react-moment';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const HomePosts = () => {
-    const homePosts = useSelector( (state) => state.homePosts)
+    const homePosts = useSelector( (state) => state.posts)
     const dispatch = useDispatch();
     const [loading,setLoading] = useState(false);
 
@@ -28,7 +28,7 @@ const HomePosts = () => {
     return(
         <>
             <Masonry
-                breakpointCols={3}
+                breakpointCols={{default:3, 800:2, 400:1}}
                 className="my-masonry-grid"
                 columnClassName="my-masonry-grid_column"
             >
@@ -49,6 +49,9 @@ const HomePosts = () => {
                             <div className="content">
                                 <div className="title">{item.title}</div>
                                 <div className="excerpt">{item.excerpt}</div>
+                                <LinkContainer>
+                                    <Button variant="light">Read more</Button>
+                                </LinkContainer>
                             </div>
                         </div>
                     ))
