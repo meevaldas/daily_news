@@ -41,7 +41,7 @@ const HomePosts = () => {
                             />
                             <div className="author">
                                 <span>{item.author} -</span>
-                                <Moment format="DD YYYY">
+                                <Moment format="DD MMMM">
                                     {item.createdAt}
                                 </Moment>
                             </div>
