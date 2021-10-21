@@ -1,6 +1,5 @@
-
 import {
-    GET_POSTS
+    GET_POSTS,
 } from '../types';
 
 

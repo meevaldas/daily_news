@@ -202,9 +202,30 @@
     }
   ],
   "newsletter": [
-
+    {
+      "id": 1,
+      "email": "jordan@gmail.com"
+    },
+    {
+      "id": 2,
+      "email": "roxanne@gmail.com"
+    },
+    {
+      "email": "meeval@gmail.com",
+      "id": 3
+    },
+    {
+      "email": "minnu@gmail.com",
+      "id": 4
+    },
+    {
+      "email": "devadas@gmail.com",
+      "id": 5
+    },
+    {
+      "email": "ruby@gmail.com",
+      "id": 6
+    }
   ],
-  "contact": [
-
-  ]
+  "contact": []
 }
