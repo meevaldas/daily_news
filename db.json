@@ -235,5 +235,27 @@
       "id": 8
     }
   ],
-  "contact": []
+  "contact": [
+    {
+      "email": "jordan@gmail.com",
+      "firstname": "Jordan",
+      "lastname": "Pinto",
+      "message": "Hi, I can run.",
+      "id": 1
+    },
+    {
+      "email": "milani@gmail.com",
+      "firstname": "Milani",
+      "lastname": "Simpson",
+      "message": "I'm so sweet.",
+      "id": 2
+    },
+    {
+      "email": "britney@gmail.com",
+      "firstname": "Britney",
+      "lastname": "Caetlyn",
+      "message": "I'm a human",
+      "id": 3
+    }
+  ]
 }
